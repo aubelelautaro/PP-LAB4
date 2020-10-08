@@ -1,0 +1,6 @@
+<div *ngFor="let poke of pokemones">
+    <th>
+        <label>{{poke.name}}</label>
+        <button mat-raised-button color="primary" (click)="verDetallePokemon(poke)">Detalles</button>
+    </th> 
+</div>
